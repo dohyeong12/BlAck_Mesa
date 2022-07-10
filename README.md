@@ -28,15 +28,25 @@
 
 ## 팀소개
  - 사진
-  - 이름
-  - 이메일
-  - 역할
-  - 깃허브(또는 개인사이트)
+
+팀장 : 이도건 / 팀원 : 권내규, 배준우, 송도현, 신세웅
+
+이도건(dg041124@gmail.com) : 총괄, 계획발표, 메인시스템개발, 기획
+
+권내규(azaz77884689@gmail.com) : 러쉬게임 개발, 기획
+
+배준우(edwin2514381@naver.com) : 최종발표, 물건받기 개발, 기획
+
+송도현(ghuijeong67@gmail.com) : 청기백기 개발, 리드미, 기획 및 밸런싱
+
+신세웅(sw427531@gmail.com) :  OX퀴즈 개발, 중간 발표, 기획
+
+깃허브(또는 개인사이트) : https://github.com/IlIlIlllIIllI/BlAck_Mesa
 
 ## 사용기술
 
 개발에 사용한 기술 - 유니티(C#) 
-개발에 소요된 물품 및 준비물 - 
+개발에 소요된 물품 및 준비물 - Pixel UI, SimplePixelUI, TextMesh Pro, nGarden, DungGeunMo
 
 ## 프로젝트 진행 과정(월별 진행상황)
 
@@ -117,17 +127,13 @@
 
 ## 결과 및 발표 자료
 
-- [깃허브 저장소 주소](https://github.com/IlIlIlllIIllI/BlAck_Mesa)
-
-- 실행 주소(웹)
- 
-- 앱, 게임은 마켓 등록 링크
+- [깃허브 저장소 주소] (https://github.com/IlIlIlllIIllI/BlAck_Mesa)
    
 - 프로젝트 소개 영상 / 팀 소개 영상
     
-- 계획 발표 자료
-   
-- 중간 발표 자료[경북소프트웨어고등학교 JSP 실습평가 문제.pdf](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9044045/JSP.pdf)
+- 계획 발표 자료 [산학분반1팀_블랙 메사.pptx](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9080083/1._.pptx)
+
+- 중간 발표 자료 [경북소프트웨어고등학교 JSP 실습평가 문제.pdf](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9044045/JSP.pdf)
  
 - 최종 발표 자료
 
