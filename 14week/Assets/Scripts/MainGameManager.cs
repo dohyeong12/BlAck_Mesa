@@ -122,16 +122,16 @@ public class MainGameManager : MonoBehaviour
     {
         switch (Random.Range(1, 5))
         {
-            case (int)Game.OXQize:
-                SceneManager.LoadScene("Game1");
-                break;
             case (int)Game.Run:
+                SceneManager.LoadScene("Game1rule");
+                break;
+            case (int)Game.BulletHell:
                 SceneManager.LoadScene("Game2");
                 break;
             case (int)Game.BlueflagWhiteflag:
                 SceneManager.LoadScene("Game3");
                 break;
-            case (int)Game.BulletHell:
+            case (int)Game.OXQize:
                 SceneManager.LoadScene("Game4");
                 break;
         }

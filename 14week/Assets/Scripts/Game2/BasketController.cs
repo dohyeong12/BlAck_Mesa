@@ -1,26 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BasketController : MonoBehaviour
 {
     
     public GameObject Win;
-    int speed = 10; //½ºÇÇµå
+    int speed = 10; //ï¿½ï¿½ï¿½Çµï¿½
     // Start is called before the first frame update
     void Start()
     {
         Win.SetActive(false);
-        Invoke("GameStop", 30f); // °ÔÀÓ 30ÃÊ Á¦ÇÑ
-        Invoke("TimeLimit", 28f); //´«¼ÛÀÌ ¸ØÃß±â?
+        Invoke("GameStop", 30f); // ï¿½ï¿½ï¿½ï¿½ 30ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        Invoke("TimeLimit", 28f); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß±ï¿½?
         
     }
 
     void GameStop()
     {
-        Win.SetActive(true); //½Â¸® ¸Þ½ÃÁö ¶ç¿ò
+        // Win.SetActive(true); //ï¿½Â¸ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 
         Time.timeScale = 0;
+        HPLC.instance.LoseGame = 1;
+        SceneManager.LoadScene("INgame");
     }
 
 
@@ -31,7 +34,7 @@ public class BasketController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float xMove = Input.GetAxis("Horizontal") * speed * Time.deltaTime; //xÃàÀ¸·Î ÀÌµ¿ÇÒ ¾ç
-        this.transform.Translate(new Vector3(xMove, 0));  //ÀÌµ¿
+        float xMove = Input.GetAxis("Horizontal") * speed * Time.deltaTime; //xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ï¿½
+        this.transform.Translate(new Vector3(xMove, 0));  //ï¿½Ìµï¿½
     }
 }

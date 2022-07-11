@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager2 : MonoBehaviour
 {
@@ -60,6 +61,8 @@ public class GameManager2 : MonoBehaviour
         onPlay.Invoke(isPlay);
         StopCoroutine(AddScore());
         GameOverTxt.SetActive(true);
+        HPLC.instance.LoseGame = 1;
+        SceneManager.LoadScene("INgame");
     }
     void Update()
     {
@@ -69,6 +72,8 @@ public class GameManager2 : MonoBehaviour
             onPlay.Invoke(isPlay);
             StopCoroutine(AddScore());
             ClearTxt.SetActive(true);
+            HPLC.instance.WinGame = 1;
+            SceneManager.LoadScene("INgame");
         }
     }
 }

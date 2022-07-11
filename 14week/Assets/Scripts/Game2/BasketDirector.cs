@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // UI¸¦ »ç¿ëÇÏ¹Ç·Î ÀØÁö ¾Ê°í Ãß°¡
+using UnityEngine.UI; // UIï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¹Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½ ï¿½ß°ï¿½
+using UnityEngine.SceneManagement;
 
 public class BasketDirector : MonoBehaviour
 {
@@ -16,9 +17,11 @@ public class BasketDirector : MonoBehaviour
 
     public void DecreaseHp()
     {
-        Debug.Log("´êÀ½!");
-        lose.SetActive(true);
+        // Debug.Log("ï¿½ï¿½ï¿½ï¿½!");
+        // lose.SetActive(true);
         Time.timeScale = 0;
+        HPLC.instance.LoseGame = 1;
+        SceneManager.LoadScene("INgame");
     }
 
 
