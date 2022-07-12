@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -75,7 +76,9 @@ public class GameManager : MonoBehaviour
             {
                 TimeManager_F.instance.Time_F = 0;
                 c = 0;
-                
+                HPLC.instance.PlayGame = 1;
+                HPLC.instance.WinGame = 1;
+                SceneManager.LoadScene("INgame");
             }
             if (TimeManager_F.instance.Time_F <= 0)
             {
@@ -87,6 +90,9 @@ public class GameManager : MonoBehaviour
                 Blue.instance.a = 1;
                 Red.instance.a = 1;
                 TimeManager_F.instance.Time_F += Time.deltaTime;
+                HPLC.instance.PlayGame = 1;
+                HPLC.instance.WinGame = 1;
+                SceneManager.LoadScene("INgame");
             }
         }
         else if (TimeManager_F.instance.Time_F <= 0)
@@ -97,6 +103,9 @@ public class GameManager : MonoBehaviour
             Blue.instance.a = 2;
             Red.instance.a = 2;
             TimeManager_F.instance.Time_F += Time.deltaTime;
+            HPLC.instance.PlayGame = 1;
+            HPLC.instance.LoseGame = 1;
+            SceneManager.LoadScene("INgame");
         }
     }
     IEnumerator start()

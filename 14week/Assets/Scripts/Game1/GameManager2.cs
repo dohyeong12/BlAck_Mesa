@@ -61,6 +61,7 @@ public class GameManager2 : MonoBehaviour
         onPlay.Invoke(isPlay);
         StopCoroutine(AddScore());
         GameOverTxt.SetActive(true);
+        HPLC.instance.PlayGame = 1;
         HPLC.instance.LoseGame = 1;
         SceneManager.LoadScene("INgame");
     }
@@ -72,6 +73,7 @@ public class GameManager2 : MonoBehaviour
             onPlay.Invoke(isPlay);
             StopCoroutine(AddScore());
             ClearTxt.SetActive(true);
+            HPLC.instance.PlayGame = 1;
             HPLC.instance.WinGame = 1;
             SceneManager.LoadScene("INgame");
         }

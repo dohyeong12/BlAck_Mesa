@@ -249,13 +249,19 @@ public class ProcessQuestions : MonoBehaviour
         
             if (Score >= 1500)
             {
+                HPLC.instance.PlayGame = 1;
+                HPLC.instance.WinGame = 1;
+                SceneManager.LoadScene("INgame");
                 GameClear.text = "GameClear";
             
     
             
         }
             else if (Score < 0)
-            {
+            {   
+                HPLC.instance.PlayGame = 1;
+                HPLC.instance.LoseGame = 1;
+                SceneManager.LoadScene("INgame");
                 GameOver.text = "GameOver";
             
             

@@ -22,7 +22,8 @@ public class BasketController : MonoBehaviour
         // Win.SetActive(true); //�¸� �޽��� ���
 
         Time.timeScale = 0;
-        HPLC.instance.LoseGame = 1;
+        HPLC.instance.PlayGame = 1;
+        HPLC.instance.WinGame = 1;
         SceneManager.LoadScene("INgame");
     }
 

@@ -20,6 +20,7 @@ public class BasketDirector : MonoBehaviour
         // Debug.Log("����!");
         // lose.SetActive(true);
         Time.timeScale = 0;
+        HPLC.instance.PlayGame = 1;
         HPLC.instance.LoseGame = 1;
         SceneManager.LoadScene("INgame");
     }

@@ -32,7 +32,9 @@ public class Timer2 : MonoBehaviour
         }
         if (limitTime < 0)
         {
-            SceneManager.LoadScene("GameOver");
+            HPLC.instance.PlayGame = 1;
+            HPLC.instance.LoseGame = 1;
+            SceneManager.LoadScene("INgame");
         }
 
 }
