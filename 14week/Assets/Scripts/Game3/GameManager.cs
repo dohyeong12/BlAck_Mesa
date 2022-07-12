@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour
             {
                 TimeManager_F.instance.Time_F = 0;
                 c = 0;
+                
             }
             if (TimeManager_F.instance.Time_F <= 0)
             {
