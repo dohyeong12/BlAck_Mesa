@@ -97,7 +97,7 @@ public class ProcessQuestions : MonoBehaviour
                 answer = true;
                 break;
             case 14:
-                question = "우리나라 최초의 국가는 고려다";
+                question = "우리나라 최초의 국가는 조선이다";
                 answer = true;
                 break;
             case 15:
