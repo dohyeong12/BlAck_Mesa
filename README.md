@@ -28,7 +28,15 @@
 
 ## 팀소개
 
-- 사진
+![이도건](https://user-images.githubusercontent.com/108465094/178941471-ca7bb2cf-b6b7-4e3b-bcfe-4c8b87f0bb11.jpg)
+
+![권내규](https://user-images.githubusercontent.com/108465094/178941420-8ccb9475-943c-4ea2-afe0-1a2416a33fac.jpg)
+
+![배준우](https://user-images.githubusercontent.com/108465094/178941357-6c6a2b54-f418-4e4c-a53b-100b65a3dd3e.jpg)
+
+![송도현](https://user-images.githubusercontent.com/108465094/178941395-049a043d-b984-49e7-8791-13dcf8b77494.jpg)
+
+![신세웅](https://user-images.githubusercontent.com/108465094/178941441-378fcd6d-3ec3-466d-8dcc-7bb715af6dec.jpg)
 
 팀장 : 이도건 / 팀원 : 권내규, 배준우, 송도현, 신세웅
 
@@ -118,22 +126,25 @@
 미니게임은 러쉬게임,OX게임,물건받기,청기백기가 있다. 러쉬 게임은 오른쪽으로 이동하는 주인공을 점프하며 건물에 부딪히지 않고 오래 살아남는 게임이고, OX게임은 등장하는 질문에 O,X 중 알맞은 정답을 선택하는 게임이다. 물건받기는 하늘에서 떨어지는 다양한 물건을 땅에 에서 최대한 많이 잡으면서 폭탄은 피해야하며, 청기백기는 올라가는 깃발의 색에 맞는 방향키를 누르는 게임이다.
 
 ## 사용자 수행 흐름도
+
 ![캡톤](https://user-images.githubusercontent.com/108465094/178197685-bc7aad9a-b521-4593-98f0-f6c47ea386a8.png)
 
 
 ## 프로젝트 추진 결과
 
-- 결과 분석, 유지 보수
 각자 미니게임을 하나씩 만들어 통합하였지만 미니게임의 수가 적어 지루하기에 쉬워지는 문제가 있다. 때문에 다양한 미니게임을 추가해야할 것이고 그에 맞춰 밸런스역시 계속해서 수정해야할 필요가 있다.
 
 ## 결과 및 발표 자료
 
 - [깃허브 저장소 주소](https://github.com/IlIlIlllIIllI/BlAck_Mesa)
    
-- 프로젝트 소개 영상 / 팀 소개 영상
+- 프로젝트 소개 영상 / 팀 소개 영상 Uploading KakaoTalk_20220714_171544448.mp4…
 
 - 계획 발표 자료  [산학분반1팀_블랙 메사.pptx](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9081203/1._.pptx)
    
 - 중간 발표 자료 [--PPT___3.pptx](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9080081/--PPT___3.pptx) 
  
-- 최종 발표 자료 [14__BlackMesa.pptx](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9083247/14__BlackMesa.pptx)
+- 최종 발표 자료 [14주후_최종발표_BlackMesa.zip](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9109941/14._._BlackMesa.zip)
+
+
+
