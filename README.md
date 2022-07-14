@@ -136,4 +136,5 @@
    
 - 중간 발표 자료 [--PPT___3.pptx](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9080081/--PPT___3.pptx) 
  
-- 최종 발표 자료 [14__BlackMesa.pptx](https://github.com/IlIlIlllIIllI/BlAck_Mesa/files/9083247/14__BlackMesa.pptx)
+- 최종 발표 자료  [Uploading 14주후_최종발표_BlackMesa.zip…]()
+
